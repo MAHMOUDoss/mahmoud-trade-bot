@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "✅ تطبيق محمود شغال الآن على Heroku!"
+    return "✅ تطبيق محمود شغال الآن!"
 
 if __name__ == "__main__":
     app.run()
